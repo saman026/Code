@@ -172,7 +172,7 @@ const useStyles = makeStyles((theme) => ({
     border: "none",
   },
   appBar: {
-    [theme.breakpoints.up("sm")]: {
+    [theme.breakpoints.up("md")]: {
       width: `calc(100% - ${drawerWidth}px)`,
       marginLeft: drawerWidth,
     },
